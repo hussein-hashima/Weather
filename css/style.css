@@ -1,0 +1,63 @@
+body{
+    color: rgb(191, 193, 200);
+    font-family: Roboto, "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+nav{
+    background-color: #1E202B;
+}
+
+#content{
+    background-image: url(../image/banner.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #1E202B;
+    padding-bottom: 40px;
+}
+section .find-location{
+    position: relative;
+}
+section .form-control{
+    padding: 20px 50px 20px 20px;
+    background: #1e202b;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+section #submit{
+    position: absolute;
+    border: none;
+    background: #009ad8;
+    padding: 15px 40px;
+    border-radius: 30px;
+    color: white;
+    width: 10%;
+    right: 5px;
+    bottom: 6px;
+}
+.forecast-today{
+    background-color: #1e202b;
+    border-radius:10px;
+    border-radius:10px;
+    background-color: #323544;
+    overflow: hidden;
+}
+
+.box-header{
+    
+    background-color: #2D303D;
+}
+.dgree{
+    font-size: 90px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.custom{
+    color: #277FD8;
+}

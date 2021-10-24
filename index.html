@@ -1,0 +1,50 @@
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Weather</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark  py-5">
+            <div class="container">
+                <a class="navbar-brand col-6 logo d-flex  align-items-center" href="#"><img src="image/logo.png"
+                        alt=""><span class="mx-3">Wheather</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="main_nav">
+                    <ul class="navbar-nav justify-content-evenly">
+                        <li class="nav-item active"> <a class="nav-link mx-3" href="#">Home </a> </li>
+                        <li class="nav-item"><a class="nav-link mx-3" href="#"> News </a></li>
+                        <li class="nav-item"><a class="nav-link mx-3" href="#"> Live Cameras </a></li>
+                        <li class="nav-item"><a class="nav-link mx-3" href="#"> Photos </a></li>
+                        <li class="nav-item"><a class="nav-link mx-3" href="#"> Contact </a></li>
+                    </ul>
+                </div> <!-- navbar-collapse.// -->
+            </div> <!-- container-fluid.// -->
+        </nav>
+    </header>
+    <section id="content">
+        <div class="container">
+            <div class="row find-location">
+                <input type="text" class="form-control" id="search" placeholder="Find Your Loctaion...">
+                <input type="button" value="Find" id="submit">
+            </div>
+            <div id="dataRow" class="row">
+                <div class="col-md-4"></div>
+            </div>
+        </div>
+
+
+    </section>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
